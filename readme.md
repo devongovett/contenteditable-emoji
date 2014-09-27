@@ -62,7 +62,7 @@ a font file from an XML file.  I've included the XML source code for the font in
 interested.  You can generate a font file using the following command:
 
     ttx emoji.ttx
-    
+
 Once we have this font, things are pretty simple to set up in CSS.
 
 ```css
@@ -83,4 +83,11 @@ Once we have this font, things are pretty simple to set up in CSS.
 
 The JS is a little more finicky just because of how terrible contenteditable is, and it really depends on how the rest of your editor is
 set up as to how you do it.  You can see a terrible hacky way to do it (replace the HTML after every keystroke) in the 
-[demo](http://devongovett.github.io/contenteditable-emoji/).
+[demo](http://devongovett.github.io/contenteditable-emoji/).  Each span should look like this after the replacement:
+
+```html
+<span class="emoji" style="background-image: url(d83d-dc4d.png)">👍</span>
+```
+
+This technique seems to work pretty well cross browser (tested in IE10, Firefox, Safari, and Chrome).  Definitely check out the
+[demo](http://devongovett.github.io/contenteditable-emoji/) for yourself and let me know what you think.
