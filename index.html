@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ContentEditable Emoji</title>
+  <style>
+  @font-face {
+    font-family: 'Emoji';
+    src: url('emoji.woff');
+  }
+  
+  .emoji {
+    font-family: 'Emoji', Georgia;
+    background-size: auto 1em;
+    background-repeat: no-repeat;
+    background-position: top center;
+    vertical-align: top;
+  }
+  
+  div[contenteditable] {
+    font-size: 40px;
+    font-family: Georgia;
+  }
+  </style>
+</head>
+<body>
+  <div contenteditable="true">Here is some content 😜👍🇺🇸</div>
+  <script src="emoji.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script>
+  var editable = $('div[contenteditable]');
+  
+  if (!emoji.nativeSupport) {
+    function renderEmoji() {
+      emoji.basePath = 'images/';
+      editable.html(editable.html().replace(emoji.regex, function(m) {
+        return '<span class="emoji" style="background-image: url(' + emoji.getImage(m) + ')">' + m + '</span>';
+      }));
+    }
+  
+    // don't do this. it replaces the entire HTML every keystroke, but it works for demo purposes
+    editable.on('input', function(e) {
+      var sel = saveSelection(editable[0]);
+    
+      editable.find('.emoji').each(function() {
+        $(this).replaceWith($(this).contents());
+      });
+    
+      renderEmoji();
+      restoreSelection(editable[0], sel);
+    });
+  
+    renderEmoji();
+  }
+  
+  // from http://jsfiddle.net/Y8pJ7/8/
+  function saveSelection(containerEl) {
+      var charIndex = 0, start = 0, end = 0, foundStart = false, stop = {};
+      var sel = window.getSelection(), range;
+
+      function traverseTextNodes(node, range) {
+          if (node.nodeType == 3) {
+              if (!foundStart && node == range.startContainer) {
+                  start = charIndex + range.startOffset;
+                  foundStart = true;
+              }
+              if (foundStart && node == range.endContainer) {
+                  end = charIndex + range.endOffset;
+                  throw stop;
+              }
+              charIndex += node.length;
+          } else {
+              for (var i = 0, len = node.childNodes.length; i < len; ++i) {
+                  traverseTextNodes(node.childNodes[i], range);
+              }
+          }
+      }
+
+      if (sel.rangeCount) {
+          try {
+              traverseTextNodes(containerEl, sel.getRangeAt(0));
+          } catch (ex) {
+              if (ex != stop) {
+                  throw ex;
+              }
+          }
+      }
+
+      return {
+          start: start,
+          end: end
+      };
+  }
+
+  function restoreSelection(containerEl, savedSel) {
+      var charIndex = 0, range = document.createRange(), foundStart = false, stop = {};
+      range.setStart(containerEl, 0);
+      range.collapse(true);
+
+      function traverseTextNodes(node) {
+          if (node.nodeType == 3) {
+              var nextCharIndex = charIndex + node.length;
+              if (!foundStart && savedSel.start >= charIndex && savedSel.start <= nextCharIndex) {
+                  range.setStart(node, savedSel.start - charIndex);
+                  foundStart = true;
+              }
+              if (foundStart && savedSel.end >= charIndex && savedSel.end <= nextCharIndex) {
+                  range.setEnd(node, savedSel.end - charIndex);
+                  throw stop;
+              }
+              charIndex = nextCharIndex;
+          } else {
+              for (var i = 0, len = node.childNodes.length; i < len; ++i) {
+                  traverseTextNodes(node.childNodes[i]);
+              }
+          }
+      }
+
+      try {
+          traverseTextNodes(containerEl);
+      } catch (ex) {
+          if (ex == stop) {
+              var sel = window.getSelection();
+              sel.removeAllRanges();
+              sel.addRange(range);
+          } else {
+              throw ex;
+          }
+      }
+  }
+  </script>
+</body>
+</html>

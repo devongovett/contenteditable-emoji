@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="2.4">
+
+  <GlyphOrder>
+    <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
+    <GlyphID id="0" name=".notdef"/>
+    <GlyphID id="1" name="space"/>
+    <GlyphID id="2" name="uni1f1fA"/>
+    <GlyphID id="3" name="uni20e3"/>
+  </GlyphOrder>
+
+  <head>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="1.0"/>
+    <fontRevision value="1.00099"/>
+    <checkSumAdjustment value="0xdc53c833"/>
+    <magicNumber value="0x5f0f3cf5"/>
+    <flags value="00000000 00000011"/>
+    <unitsPerEm value="1000"/>
+    <created value="Fri Sep 26 16:49:57 2014"/>
+    <modified value="Sat Sep 27 02:37:32 2014"/>
+    <xMin value="0"/>
+    <yMin value="0"/>
+    <xMax value="1000"/>
+    <yMax value="1000"/>
+    <macStyle value="00000000 00000000"/>
+    <lowestRecPPEM value="3"/>
+    <fontDirectionHint value="2"/>
+    <indexToLocFormat value="0"/>
+    <glyphDataFormat value="0"/>
+  </head>
+
+  <hhea>
+    <tableVersion value="1.0"/>
+    <ascent value="0"/>
+    <descent value="0"/>
+    <lineGap value="0"/>
+    <advanceWidthMax value="1000"/>
+    <minLeftSideBearing value="0"/>
+    <minRightSideBearing value="47"/>
+    <xMaxExtent value="753"/>
+    <caretSlopeRise value="1"/>
+    <caretSlopeRun value="0"/>
+    <caretOffset value="0"/>
+    <reserved0 value="0"/>
+    <reserved1 value="0"/>
+    <reserved2 value="0"/>
+    <reserved3 value="0"/>
+    <metricDataFormat value="0"/>
+    <numberOfHMetrics value="4"/>
+  </hhea>
+
+  <maxp>
+    <tableVersion value="0x5000"/>
+    <numGlyphs value="4"/>
+  </maxp>
+
+  <OS_2>
+    <version value="3"/>
+    <xAvgCharWidth value="733"/>
+    <usWeightClass value="400"/>
+    <usWidthClass value="5"/>
+    <fsType value="00000000 00000100"/>
+    <ySubscriptXSize value="700"/>
+    <ySubscriptYSize value="650"/>
+    <ySubscriptXOffset value="0"/>
+    <ySubscriptYOffset value="140"/>
+    <ySuperscriptXSize value="700"/>
+    <ySuperscriptYSize value="650"/>
+    <ySuperscriptXOffset value="0"/>
+    <ySuperscriptYOffset value="477"/>
+    <yStrikeoutSize value="50"/>
+    <yStrikeoutPosition value="250"/>
+    <sFamilyClass value="0"/>
+    <panose>
+      <bFamilyType value="0"/>
+      <bSerifStyle value="0"/>
+      <bWeight value="0"/>
+      <bProportion value="0"/>
+      <bContrast value="0"/>
+      <bStrokeVariation value="0"/>
+      <bArmStyle value="0"/>
+      <bLetterForm value="0"/>
+      <bMidline value="0"/>
+      <bXHeight value="0"/>
+    </panose>
+    <ulUnicodeRange1 value="00000000 00000000 00000000 00000011"/>
+    <ulUnicodeRange2 value="00011000 00000000 00000000 00000000"/>
+    <ulUnicodeRange3 value="00010100 00000000 00000000 00000000"/>
+    <ulUnicodeRange4 value="00000000 00000000 00000000 00000000"/>
+    <achVendID value="APPL"/>
+    <fsSelection value="00000000 01000000"/>
+    <fsFirstCharIndex value="32"/>
+    <fsLastCharIndex value="58634"/>
+    <sTypoAscender value="750"/>
+    <sTypoDescender value="-250"/>
+    <sTypoLineGap value="0"/>
+    <usWinAscent value="1000"/>
+    <usWinDescent value="0"/>
+    <ulCodePageRange1 value="00000000 00000000 00000000 00000001"/>
+    <ulCodePageRange2 value="00000000 00000000 00000000 00000000"/>
+    <sxHeight value="500"/>
+    <sCapHeight value="1000"/>
+    <usDefaultChar value="0"/>
+    <usBreakChar value="32"/>
+    <usMaxContex value="2"/>
+  </OS_2>
+
+  <name>
+    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0">
+      emoji
+    </namerecord>
+    <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0">
+      1.001;UKWN;emoji-Regular
+    </namerecord>
+    <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0">
+      emoji
+    </namerecord>
+    <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0">
+      Version 1.001;PS 001.001;hotconv 1.0.56;makeotf.lib2.0.21325
+    </namerecord>
+    <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0">
+      emoji-Regular
+    </namerecord>
+    <namerecord nameID="18" platformID="1" platEncID="0" langID="0x0">
+      emoji Regular
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      emoji
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      1.001;UKWN;emoji-Regular
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      emoji-Regular
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version 1.001;PS 001.001;hotconv 1.0.56;makeotf.lib2.0.21325
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      emoji-Regular
+    </namerecord>
+  </name>
+
+  <cmap>
+    <tableVersion version="0"/>
+    <cmap_format_12 platformID="0" platEncID="3" format="12" reserved="0" length="1288" language="0" nGroups="106">
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x23" name="space"/><!-- NUMBER SIGN -->
+      <map code="0x30" name="space"/><!-- DIGIT ZERO -->
+      <map code="0x31" name="space"/><!-- DIGIT ONE -->
+      <map code="0x32" name="space"/><!-- DIGIT TWO -->
+      <map code="0x33" name="space"/><!-- DIGIT THREE -->
+      <map code="0x34" name="space"/><!-- DIGIT FOUR -->
+      <map code="0x35" name="space"/><!-- DIGIT FIVE -->
+      <map code="0x36" name="space"/><!-- DIGIT SIX -->
+      <map code="0x37" name="space"/><!-- DIGIT SEVEN -->
+      <map code="0x38" name="space"/><!-- DIGIT EIGHT -->
+      <map code="0x39" name="space"/><!-- DIGIT NINE -->
+      <map code="0xa0" name="space"/><!-- NO-BREAK SPACE -->
+      <map code="0xa9" name="space"/><!-- COPYRIGHT SIGN -->
+      <map code="0xae" name="space"/><!-- REGISTERED SIGN -->
+      <map code="0x203c" name="space"/><!-- DOUBLE EXCLAMATION MARK -->
+      <map code="0x2049" name="space"/><!-- EXCLAMATION QUESTION MARK -->
+      <map code="0x20e3" name="uni20e3"/><!-- COMBINING ENCLOSING KEYCAP -->
+      <map code="0x2122" name="space"/><!-- TRADE MARK SIGN -->
+      <map code="0x2139" name="space"/><!-- INFORMATION SOURCE -->
+      <map code="0x2194" name="space"/><!-- LEFT RIGHT ARROW -->
+      <map code="0x2195" name="space"/><!-- UP DOWN ARROW -->
+      <map code="0x2196" name="space"/><!-- NORTH WEST ARROW -->
+      <map code="0x2197" name="space"/><!-- NORTH EAST ARROW -->
+      <map code="0x2198" name="space"/><!-- SOUTH EAST ARROW -->
+      <map code="0x2199" name="space"/><!-- SOUTH WEST ARROW -->
+      <map code="0x21a9" name="space"/><!-- LEFTWARDS ARROW WITH HOOK -->
+      <map code="0x21aa" name="space"/><!-- RIGHTWARDS ARROW WITH HOOK -->
+      <map code="0x231a" name="space"/><!-- WATCH -->
+      <map code="0x231b" name="space"/><!-- HOURGLASS -->
+      <map code="0x23e9" name="space"/><!-- ???? -->
+      <map code="0x23ea" name="space"/><!-- ???? -->
+      <map code="0x23eb" name="space"/><!-- ???? -->
+      <map code="0x23ec" name="space"/><!-- ???? -->
+      <map code="0x23f0" name="space"/><!-- ???? -->
+      <map code="0x23f3" name="space"/><!-- ???? -->
+      <map code="0x24c2" name="space"/><!-- CIRCLED LATIN CAPITAL LETTER M -->
+      <map code="0x25aa" name="space"/><!-- BLACK SMALL SQUARE -->
+      <map code="0x25ab" name="space"/><!-- WHITE SMALL SQUARE -->
+      <map code="0x25b6" name="space"/><!-- BLACK RIGHT-POINTING TRIANGLE -->
+      <map code="0x25c0" name="space"/><!-- BLACK LEFT-POINTING TRIANGLE -->
+      <map code="0x25fb" name="space"/><!-- WHITE MEDIUM SQUARE -->
+      <map code="0x25fc" name="space"/><!-- BLACK MEDIUM SQUARE -->
+      <map code="0x25fd" name="space"/><!-- WHITE MEDIUM SMALL SQUARE -->
+      <map code="0x25fe" name="space"/><!-- BLACK MEDIUM SMALL SQUARE -->
+      <map code="0x2600" name="space"/><!-- BLACK SUN WITH RAYS -->
+      <map code="0x2601" name="space"/><!-- CLOUD -->
+      <map code="0x260e" name="space"/><!-- BLACK TELEPHONE -->
+      <map code="0x2611" name="space"/><!-- BALLOT BOX WITH CHECK -->
+      <map code="0x2614" name="space"/><!-- UMBRELLA WITH RAIN DROPS -->
+      <map code="0x2615" name="space"/><!-- HOT BEVERAGE -->
+      <map code="0x261d" name="space"/><!-- WHITE UP POINTING INDEX -->
+      <map code="0x263a" name="space"/><!-- WHITE SMILING FACE -->
+      <map code="0x2648" name="space"/><!-- ARIES -->
+      <map code="0x2649" name="space"/><!-- TAURUS -->
+      <map code="0x264a" name="space"/><!-- GEMINI -->
+      <map code="0x264b" name="space"/><!-- CANCER -->
+      <map code="0x264c" name="space"/><!-- LEO -->
+      <map code="0x264d" name="space"/><!-- VIRGO -->
+      <map code="0x264e" name="space"/><!-- LIBRA -->
+      <map code="0x264f" name="space"/><!-- SCORPIUS -->
+      <map code="0x2650" name="space"/><!-- SAGITTARIUS -->
+      <map code="0x2651" name="space"/><!-- CAPRICORN -->
+      <map code="0x2652" name="space"/><!-- AQUARIUS -->
+      <map code="0x2653" name="space"/><!-- PISCES -->
+      <map code="0x2660" name="space"/><!-- BLACK SPADE SUIT -->
+      <map code="0x2663" name="space"/><!-- BLACK CLUB SUIT -->
+      <map code="0x2665" name="space"/><!-- BLACK HEART SUIT -->
+      <map code="0x2666" name="space"/><!-- BLACK DIAMOND SUIT -->
+      <map code="0x2668" name="space"/><!-- HOT SPRINGS -->
+      <map code="0x267b" name="space"/><!-- BLACK UNIVERSAL RECYCLING SYMBOL -->
+      <map code="0x267f" name="space"/><!-- WHEELCHAIR SYMBOL -->
+      <map code="0x2693" name="space"/><!-- ANCHOR -->
+      <map code="0x26a0" name="space"/><!-- WARNING SIGN -->
+      <map code="0x26a1" name="space"/><!-- HIGH VOLTAGE SIGN -->
+      <map code="0x26aa" name="space"/><!-- MEDIUM WHITE CIRCLE -->
+      <map code="0x26ab" name="space"/><!-- MEDIUM BLACK CIRCLE -->
+      <map code="0x26bd" name="space"/><!-- SOCCER BALL -->
+      <map code="0x26be" name="space"/><!-- BASEBALL -->
+      <map code="0x26c4" name="space"/><!-- SNOWMAN WITHOUT SNOW -->
+      <map code="0x26c5" name="space"/><!-- SUN BEHIND CLOUD -->
+      <map code="0x26ce" name="space"/><!-- ???? -->
+      <map code="0x26d4" name="space"/><!-- NO ENTRY -->
+      <map code="0x26ea" name="space"/><!-- CHURCH -->
+      <map code="0x26f2" name="space"/><!-- FOUNTAIN -->
+      <map code="0x26f3" name="space"/><!-- FLAG IN HOLE -->
+      <map code="0x26f5" name="space"/><!-- SAILBOAT -->
+      <map code="0x26fa" name="space"/><!-- TENT -->
+      <map code="0x26fd" name="space"/><!-- FUEL PUMP -->
+      <map code="0x2702" name="space"/><!-- BLACK SCISSORS -->
+      <map code="0x2705" name="space"/><!-- ???? -->
+      <map code="0x2708" name="space"/><!-- AIRPLANE -->
+      <map code="0x2709" name="space"/><!-- ENVELOPE -->
+      <map code="0x270a" name="space"/><!-- ???? -->
+      <map code="0x270b" name="space"/><!-- ???? -->
+      <map code="0x270c" name="space"/><!-- VICTORY HAND -->
+      <map code="0x270f" name="space"/><!-- PENCIL -->
+      <map code="0x2712" name="space"/><!-- BLACK NIB -->
+      <map code="0x2714" name="space"/><!-- HEAVY CHECK MARK -->
+      <map code="0x2716" name="space"/><!-- HEAVY MULTIPLICATION X -->
+      <map code="0x2728" name="space"/><!-- ???? -->
+      <map code="0x2733" name="space"/><!-- EIGHT SPOKED ASTERISK -->
+      <map code="0x2734" name="space"/><!-- EIGHT POINTED BLACK STAR -->
+      <map code="0x2744" name="space"/><!-- SNOWFLAKE -->
+      <map code="0x2747" name="space"/><!-- SPARKLE -->
+      <map code="0x274c" name="space"/><!-- ???? -->
+      <map code="0x274e" name="space"/><!-- ???? -->
+      <map code="0x2753" name="space"/><!-- ???? -->
+      <map code="0x2754" name="space"/><!-- ???? -->
+      <map code="0x2755" name="space"/><!-- ???? -->
+      <map code="0x2757" name="space"/><!-- HEAVY EXCLAMATION MARK SYMBOL -->
+      <map code="0x2764" name="space"/><!-- HEAVY BLACK HEART -->
+      <map code="0x2795" name="space"/><!-- ???? -->
+      <map code="0x2796" name="space"/><!-- ???? -->
+      <map code="0x2797" name="space"/><!-- ???? -->
+      <map code="0x27a1" name="space"/><!-- BLACK RIGHTWARDS ARROW -->
+      <map code="0x27b0" name="space"/><!-- ???? -->
+      <map code="0x27bf" name="space"/><!-- ???? -->
+      <map code="0x2934" name="space"/><!-- ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS -->
+      <map code="0x2935" name="space"/><!-- ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS -->
+      <map code="0x2b05" name="space"/><!-- LEFTWARDS BLACK ARROW -->
+      <map code="0x2b06" name="space"/><!-- UPWARDS BLACK ARROW -->
+      <map code="0x2b07" name="space"/><!-- DOWNWARDS BLACK ARROW -->
+      <map code="0x2b1b" name="space"/><!-- BLACK LARGE SQUARE -->
+      <map code="0x2b1c" name="space"/><!-- WHITE LARGE SQUARE -->
+      <map code="0x2b50" name="space"/><!-- WHITE MEDIUM STAR -->
+      <map code="0x2b55" name="space"/><!-- HEAVY LARGE CIRCLE -->
+      <map code="0x3030" name="space"/><!-- WAVY DASH -->
+      <map code="0x303d" name="space"/><!-- PART ALTERNATION MARK -->
+      <map code="0x3297" name="space"/><!-- CIRCLED IDEOGRAPH CONGRATULATION -->
+      <map code="0x3299" name="space"/><!-- CIRCLED IDEOGRAPH SECRET -->
+      <map code="0xe50a" name="space"/><!-- ???? -->
+      <map code="0xfe0f" name="uni20e3"/><!-- variation selector -->
+      <map code="0x1f004" name="space"/><!-- ???? -->
+      <map code="0x1f0cf" name="space"/><!-- ???? -->
+      <map code="0x1f170" name="space"/><!-- ???? -->
+      <map code="0x1f171" name="space"/><!-- ???? -->
+      <map code="0x1f17e" name="space"/><!-- ???? -->
+      <map code="0x1f17f" name="space"/><!-- ???? -->
+      <map code="0x1f18e" name="space"/><!-- ???? -->
+      <map code="0x1f191" name="space"/><!-- ???? -->
+      <map code="0x1f192" name="space"/><!-- ???? -->
+      <map code="0x1f193" name="space"/><!-- ???? -->
+      <map code="0x1f194" name="space"/><!-- ???? -->
+      <map code="0x1f195" name="space"/><!-- ???? -->
+      <map code="0x1f196" name="space"/><!-- ???? -->
+      <map code="0x1f197" name="space"/><!-- ???? -->
+      <map code="0x1f198" name="space"/><!-- ???? -->
+      <map code="0x1f199" name="space"/><!-- ???? -->
+      <map code="0x1f19a" name="space"/><!-- ???? -->
+      <map code="0x1f1e6" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1e7" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1e8" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1e9" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1ea" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1eb" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1ec" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1ed" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1ee" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1ef" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1f0" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1f1" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1f2" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1f3" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1f4" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1f5" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1f6" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1f7" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1f8" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1f9" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1fa" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1fb" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1fc" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1fd" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1fe" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f1ff" name="uni1f1fA"/><!-- ???? -->
+      <map code="0x1f201" name="space"/><!-- ???? -->
+      <map code="0x1f202" name="space"/><!-- ???? -->
+      <map code="0x1f21a" name="space"/><!-- ???? -->
+      <map code="0x1f22f" name="space"/><!-- ???? -->
+      <map code="0x1f232" name="space"/><!-- ???? -->
+      <map code="0x1f233" name="space"/><!-- ???? -->
+      <map code="0x1f234" name="space"/><!-- ???? -->
+      <map code="0x1f235" name="space"/><!-- ???? -->
+      <map code="0x1f236" name="space"/><!-- ???? -->
+      <map code="0x1f237" name="space"/><!-- ???? -->
+      <map code="0x1f238" name="space"/><!-- ???? -->
+      <map code="0x1f239" name="space"/><!-- ???? -->
+      <map code="0x1f23a" name="space"/><!-- ???? -->
+      <map code="0x1f250" name="space"/><!-- ???? -->
+      <map code="0x1f251" name="space"/><!-- ???? -->
+      <map code="0x1f300" name="space"/><!-- ???? -->
+      <map code="0x1f301" name="space"/><!-- ???? -->
+      <map code="0x1f302" name="space"/><!-- ???? -->
+      <map code="0x1f303" name="space"/><!-- ???? -->
+      <map code="0x1f304" name="space"/><!-- ???? -->
+      <map code="0x1f305" name="space"/><!-- ???? -->
+      <map code="0x1f306" name="space"/><!-- ???? -->
+      <map code="0x1f307" name="space"/><!-- ???? -->
+      <map code="0x1f308" name="space"/><!-- ???? -->
+      <map code="0x1f309" name="space"/><!-- ???? -->
+      <map code="0x1f30a" name="space"/><!-- ???? -->
+      <map code="0x1f30b" name="space"/><!-- ???? -->
+      <map code="0x1f30c" name="space"/><!-- ???? -->
+      <map code="0x1f30d" name="space"/><!-- ???? -->
+      <map code="0x1f30e" name="space"/><!-- ???? -->
+      <map code="0x1f30f" name="space"/><!-- ???? -->
+      <map code="0x1f310" name="space"/><!-- ???? -->
+      <map code="0x1f311" name="space"/><!-- ???? -->
+      <map code="0x1f312" name="space"/><!-- ???? -->
+      <map code="0x1f313" name="space"/><!-- ???? -->
+      <map code="0x1f314" name="space"/><!-- ???? -->
+      <map code="0x1f315" name="space"/><!-- ???? -->
+      <map code="0x1f316" name="space"/><!-- ???? -->
+      <map code="0x1f317" name="space"/><!-- ???? -->
+      <map code="0x1f318" name="space"/><!-- ???? -->
+      <map code="0x1f319" name="space"/><!-- ???? -->
+      <map code="0x1f31a" name="space"/><!-- ???? -->
+      <map code="0x1f31b" name="space"/><!-- ???? -->
+      <map code="0x1f31c" name="space"/><!-- ???? -->
+      <map code="0x1f31d" name="space"/><!-- ???? -->
+      <map code="0x1f31e" name="space"/><!-- ???? -->
+      <map code="0x1f31f" name="space"/><!-- ???? -->
+      <map code="0x1f320" name="space"/><!-- ???? -->
+      <map code="0x1f330" name="space"/><!-- ???? -->
+      <map code="0x1f331" name="space"/><!-- ???? -->
+      <map code="0x1f332" name="space"/><!-- ???? -->
+      <map code="0x1f333" name="space"/><!-- ???? -->
+      <map code="0x1f334" name="space"/><!-- ???? -->
+      <map code="0x1f335" name="space"/><!-- ???? -->
+      <map code="0x1f337" name="space"/><!-- ???? -->
+      <map code="0x1f338" name="space"/><!-- ???? -->
+      <map code="0x1f339" name="space"/><!-- ???? -->
+      <map code="0x1f33a" name="space"/><!-- ???? -->
+      <map code="0x1f33b" name="space"/><!-- ???? -->
+      <map code="0x1f33c" name="space"/><!-- ???? -->
+      <map code="0x1f33d" name="space"/><!-- ???? -->
+      <map code="0x1f33e" name="space"/><!-- ???? -->
+      <map code="0x1f33f" name="space"/><!-- ???? -->
+      <map code="0x1f340" name="space"/><!-- ???? -->
+      <map code="0x1f341" name="space"/><!-- ???? -->
+      <map code="0x1f342" name="space"/><!-- ???? -->
+      <map code="0x1f343" name="space"/><!-- ???? -->
+      <map code="0x1f344" name="space"/><!-- ???? -->
+      <map code="0x1f345" name="space"/><!-- ???? -->
+      <map code="0x1f346" name="space"/><!-- ???? -->
+      <map code="0x1f347" name="space"/><!-- ???? -->
+      <map code="0x1f348" name="space"/><!-- ???? -->
+      <map code="0x1f349" name="space"/><!-- ???? -->
+      <map code="0x1f34a" name="space"/><!-- ???? -->
+      <map code="0x1f34b" name="space"/><!-- ???? -->
+      <map code="0x1f34c" name="space"/><!-- ???? -->
+      <map code="0x1f34d" name="space"/><!-- ???? -->
+      <map code="0x1f34e" name="space"/><!-- ???? -->
+      <map code="0x1f34f" name="space"/><!-- ???? -->
+      <map code="0x1f350" name="space"/><!-- ???? -->
+      <map code="0x1f351" name="space"/><!-- ???? -->
+      <map code="0x1f352" name="space"/><!-- ???? -->
+      <map code="0x1f353" name="space"/><!-- ???? -->
+      <map code="0x1f354" name="space"/><!-- ???? -->
+      <map code="0x1f355" name="space"/><!-- ???? -->
+      <map code="0x1f356" name="space"/><!-- ???? -->
+      <map code="0x1f357" name="space"/><!-- ???? -->
+      <map code="0x1f358" name="space"/><!-- ???? -->
+      <map code="0x1f359" name="space"/><!-- ???? -->
+      <map code="0x1f35a" name="space"/><!-- ???? -->
+      <map code="0x1f35b" name="space"/><!-- ???? -->
+      <map code="0x1f35c" name="space"/><!-- ???? -->
+      <map code="0x1f35d" name="space"/><!-- ???? -->
+      <map code="0x1f35e" name="space"/><!-- ???? -->
+      <map code="0x1f35f" name="space"/><!-- ???? -->
+      <map code="0x1f360" name="space"/><!-- ???? -->
+      <map code="0x1f361" name="space"/><!-- ???? -->
+      <map code="0x1f362" name="space"/><!-- ???? -->
+      <map code="0x1f363" name="space"/><!-- ???? -->
+      <map code="0x1f364" name="space"/><!-- ???? -->
+      <map code="0x1f365" name="space"/><!-- ???? -->
+      <map code="0x1f366" name="space"/><!-- ???? -->
+      <map code="0x1f367" name="space"/><!-- ???? -->
+      <map code="0x1f368" name="space"/><!-- ???? -->
+      <map code="0x1f369" name="space"/><!-- ???? -->
+      <map code="0x1f36a" name="space"/><!-- ???? -->
+      <map code="0x1f36b" name="space"/><!-- ???? -->
+      <map code="0x1f36c" name="space"/><!-- ???? -->
+      <map code="0x1f36d" name="space"/><!-- ???? -->
+      <map code="0x1f36e" name="space"/><!-- ???? -->
+      <map code="0x1f36f" name="space"/><!-- ???? -->
+      <map code="0x1f370" name="space"/><!-- ???? -->
+      <map code="0x1f371" name="space"/><!-- ???? -->
+      <map code="0x1f372" name="space"/><!-- ???? -->
+      <map code="0x1f373" name="space"/><!-- ???? -->
+      <map code="0x1f374" name="space"/><!-- ???? -->
+      <map code="0x1f375" name="space"/><!-- ???? -->
+      <map code="0x1f376" name="space"/><!-- ???? -->
+      <map code="0x1f377" name="space"/><!-- ???? -->
+      <map code="0x1f378" name="space"/><!-- ???? -->
+      <map code="0x1f379" name="space"/><!-- ???? -->
+      <map code="0x1f37a" name="space"/><!-- ???? -->
+      <map code="0x1f37b" name="space"/><!-- ???? -->
+      <map code="0x1f37c" name="space"/><!-- ???? -->
+      <map code="0x1f380" name="space"/><!-- ???? -->
+      <map code="0x1f381" name="space"/><!-- ???? -->
+      <map code="0x1f382" name="space"/><!-- ???? -->
+      <map code="0x1f383" name="space"/><!-- ???? -->
+      <map code="0x1f384" name="space"/><!-- ???? -->
+      <map code="0x1f385" name="space"/><!-- ???? -->
+      <map code="0x1f386" name="space"/><!-- ???? -->
+      <map code="0x1f387" name="space"/><!-- ???? -->
+      <map code="0x1f388" name="space"/><!-- ???? -->
+      <map code="0x1f389" name="space"/><!-- ???? -->
+      <map code="0x1f38a" name="space"/><!-- ???? -->
+      <map code="0x1f38b" name="space"/><!-- ???? -->
+      <map code="0x1f38c" name="space"/><!-- ???? -->
+      <map code="0x1f38d" name="space"/><!-- ???? -->
+      <map code="0x1f38e" name="space"/><!-- ???? -->
+      <map code="0x1f38f" name="space"/><!-- ???? -->
+      <map code="0x1f390" name="space"/><!-- ???? -->
+      <map code="0x1f391" name="space"/><!-- ???? -->
+      <map code="0x1f392" name="space"/><!-- ???? -->
+      <map code="0x1f393" name="space"/><!-- ???? -->
+      <map code="0x1f3a0" name="space"/><!-- ???? -->
+      <map code="0x1f3a1" name="space"/><!-- ???? -->
+      <map code="0x1f3a2" name="space"/><!-- ???? -->
+      <map code="0x1f3a3" name="space"/><!-- ???? -->
+      <map code="0x1f3a4" name="space"/><!-- ???? -->
+      <map code="0x1f3a5" name="space"/><!-- ???? -->
+      <map code="0x1f3a6" name="space"/><!-- ???? -->
+      <map code="0x1f3a7" name="space"/><!-- ???? -->
+      <map code="0x1f3a8" name="space"/><!-- ???? -->
+      <map code="0x1f3a9" name="space"/><!-- ???? -->
+      <map code="0x1f3aa" name="space"/><!-- ???? -->
+      <map code="0x1f3ab" name="space"/><!-- ???? -->
+      <map code="0x1f3ac" name="space"/><!-- ???? -->
+      <map code="0x1f3ad" name="space"/><!-- ???? -->
+      <map code="0x1f3ae" name="space"/><!-- ???? -->
+      <map code="0x1f3af" name="space"/><!-- ???? -->
+      <map code="0x1f3b0" name="space"/><!-- ???? -->
+      <map code="0x1f3b1" name="space"/><!-- ???? -->
+      <map code="0x1f3b2" name="space"/><!-- ???? -->
+      <map code="0x1f3b3" name="space"/><!-- ???? -->
+      <map code="0x1f3b4" name="space"/><!-- ???? -->
+      <map code="0x1f3b5" name="space"/><!-- ???? -->
+      <map code="0x1f3b6" name="space"/><!-- ???? -->
+      <map code="0x1f3b7" name="space"/><!-- ???? -->
+      <map code="0x1f3b8" name="space"/><!-- ???? -->
+      <map code="0x1f3b9" name="space"/><!-- ???? -->
+      <map code="0x1f3ba" name="space"/><!-- ???? -->
+      <map code="0x1f3bb" name="space"/><!-- ???? -->
+      <map code="0x1f3bc" name="space"/><!-- ???? -->
+      <map code="0x1f3bd" name="space"/><!-- ???? -->
+      <map code="0x1f3be" name="space"/><!-- ???? -->
+      <map code="0x1f3bf" name="space"/><!-- ???? -->
+      <map code="0x1f3c0" name="space"/><!-- ???? -->
+      <map code="0x1f3c1" name="space"/><!-- ???? -->
+      <map code="0x1f3c2" name="space"/><!-- ???? -->
+      <map code="0x1f3c3" name="space"/><!-- ???? -->
+      <map code="0x1f3c4" name="space"/><!-- ???? -->
+      <map code="0x1f3c6" name="space"/><!-- ???? -->
+      <map code="0x1f3c7" name="space"/><!-- ???? -->
+      <map code="0x1f3c8" name="space"/><!-- ???? -->
+      <map code="0x1f3c9" name="space"/><!-- ???? -->
+      <map code="0x1f3ca" name="space"/><!-- ???? -->
+      <map code="0x1f3e0" name="space"/><!-- ???? -->
+      <map code="0x1f3e1" name="space"/><!-- ???? -->
+      <map code="0x1f3e2" name="space"/><!-- ???? -->
+      <map code="0x1f3e3" name="space"/><!-- ???? -->
+      <map code="0x1f3e4" name="space"/><!-- ???? -->
+      <map code="0x1f3e5" name="space"/><!-- ???? -->
+      <map code="0x1f3e6" name="space"/><!-- ???? -->
+      <map code="0x1f3e7" name="space"/><!-- ???? -->
+      <map code="0x1f3e8" name="space"/><!-- ???? -->
+      <map code="0x1f3e9" name="space"/><!-- ???? -->
+      <map code="0x1f3ea" name="space"/><!-- ???? -->
+      <map code="0x1f3eb" name="space"/><!-- ???? -->
+      <map code="0x1f3ec" name="space"/><!-- ???? -->
+      <map code="0x1f3ed" name="space"/><!-- ???? -->
+      <map code="0x1f3ee" name="space"/><!-- ???? -->
+      <map code="0x1f3ef" name="space"/><!-- ???? -->
+      <map code="0x1f3f0" name="space"/><!-- ???? -->
+      <map code="0x1f400" name="space"/><!-- ???? -->
+      <map code="0x1f401" name="space"/><!-- ???? -->
+      <map code="0x1f402" name="space"/><!-- ???? -->
+      <map code="0x1f403" name="space"/><!-- ???? -->
+      <map code="0x1f404" name="space"/><!-- ???? -->
+      <map code="0x1f405" name="space"/><!-- ???? -->
+      <map code="0x1f406" name="space"/><!-- ???? -->
+      <map code="0x1f407" name="space"/><!-- ???? -->
+      <map code="0x1f408" name="space"/><!-- ???? -->
+      <map code="0x1f409" name="space"/><!-- ???? -->
+      <map code="0x1f40a" name="space"/><!-- ???? -->
+      <map code="0x1f40b" name="space"/><!-- ???? -->
+      <map code="0x1f40c" name="space"/><!-- ???? -->
+      <map code="0x1f40d" name="space"/><!-- ???? -->
+      <map code="0x1f40e" name="space"/><!-- ???? -->
+      <map code="0x1f40f" name="space"/><!-- ???? -->
+      <map code="0x1f410" name="space"/><!-- ???? -->
+      <map code="0x1f411" name="space"/><!-- ???? -->
+      <map code="0x1f412" name="space"/><!-- ???? -->
+      <map code="0x1f413" name="space"/><!-- ???? -->
+      <map code="0x1f414" name="space"/><!-- ???? -->
+      <map code="0x1f415" name="space"/><!-- ???? -->
+      <map code="0x1f416" name="space"/><!-- ???? -->
+      <map code="0x1f417" name="space"/><!-- ???? -->
+      <map code="0x1f418" name="space"/><!-- ???? -->
+      <map code="0x1f419" name="space"/><!-- ???? -->
+      <map code="0x1f41a" name="space"/><!-- ???? -->
+      <map code="0x1f41b" name="space"/><!-- ???? -->
+      <map code="0x1f41c" name="space"/><!-- ???? -->
+      <map code="0x1f41d" name="space"/><!-- ???? -->
+      <map code="0x1f41e" name="space"/><!-- ???? -->
+      <map code="0x1f41f" name="space"/><!-- ???? -->
+      <map code="0x1f420" name="space"/><!-- ???? -->
+      <map code="0x1f421" name="space"/><!-- ???? -->
+      <map code="0x1f422" name="space"/><!-- ???? -->
+      <map code="0x1f423" name="space"/><!-- ???? -->
+      <map code="0x1f424" name="space"/><!-- ???? -->
+      <map code="0x1f425" name="space"/><!-- ???? -->
+      <map code="0x1f426" name="space"/><!-- ???? -->
+      <map code="0x1f427" name="space"/><!-- ???? -->
+      <map code="0x1f428" name="space"/><!-- ???? -->
+      <map code="0x1f429" name="space"/><!-- ???? -->
+      <map code="0x1f42a" name="space"/><!-- ???? -->
+      <map code="0x1f42b" name="space"/><!-- ???? -->
+      <map code="0x1f42c" name="space"/><!-- ???? -->
+      <map code="0x1f42d" name="space"/><!-- ???? -->
+      <map code="0x1f42e" name="space"/><!-- ???? -->
+      <map code="0x1f42f" name="space"/><!-- ???? -->
+      <map code="0x1f430" name="space"/><!-- ???? -->
+      <map code="0x1f431" name="space"/><!-- ???? -->
+      <map code="0x1f432" name="space"/><!-- ???? -->
+      <map code="0x1f433" name="space"/><!-- ???? -->
+      <map code="0x1f434" name="space"/><!-- ???? -->
+      <map code="0x1f435" name="space"/><!-- ???? -->
+      <map code="0x1f436" name="space"/><!-- ???? -->
+      <map code="0x1f437" name="space"/><!-- ???? -->
+      <map code="0x1f438" name="space"/><!-- ???? -->
+      <map code="0x1f439" name="space"/><!-- ???? -->
+      <map code="0x1f43a" name="space"/><!-- ???? -->
+      <map code="0x1f43b" name="space"/><!-- ???? -->
+      <map code="0x1f43c" name="space"/><!-- ???? -->
+      <map code="0x1f43d" name="space"/><!-- ???? -->
+      <map code="0x1f43e" name="space"/><!-- ???? -->
+      <map code="0x1f440" name="space"/><!-- ???? -->
+      <map code="0x1f442" name="space"/><!-- ???? -->
+      <map code="0x1f443" name="space"/><!-- ???? -->
+      <map code="0x1f444" name="space"/><!-- ???? -->
+      <map code="0x1f445" name="space"/><!-- ???? -->
+      <map code="0x1f446" name="space"/><!-- ???? -->
+      <map code="0x1f447" name="space"/><!-- ???? -->
+      <map code="0x1f448" name="space"/><!-- ???? -->
+      <map code="0x1f449" name="space"/><!-- ???? -->
+      <map code="0x1f44a" name="space"/><!-- ???? -->
+      <map code="0x1f44b" name="space"/><!-- ???? -->
+      <map code="0x1f44c" name="space"/><!-- ???? -->
+      <map code="0x1f44d" name="space"/><!-- ???? -->
+      <map code="0x1f44e" name="space"/><!-- ???? -->
+      <map code="0x1f44f" name="space"/><!-- ???? -->
+      <map code="0x1f450" name="space"/><!-- ???? -->
+      <map code="0x1f451" name="space"/><!-- ???? -->
+      <map code="0x1f452" name="space"/><!-- ???? -->
+      <map code="0x1f453" name="space"/><!-- ???? -->
+      <map code="0x1f454" name="space"/><!-- ???? -->
+      <map code="0x1f455" name="space"/><!-- ???? -->
+      <map code="0x1f456" name="space"/><!-- ???? -->
+      <map code="0x1f457" name="space"/><!-- ???? -->
+      <map code="0x1f458" name="space"/><!-- ???? -->
+      <map code="0x1f459" name="space"/><!-- ???? -->
+      <map code="0x1f45a" name="space"/><!-- ???? -->
+      <map code="0x1f45b" name="space"/><!-- ???? -->
+      <map code="0x1f45c" name="space"/><!-- ???? -->
+      <map code="0x1f45d" name="space"/><!-- ???? -->
+      <map code="0x1f45e" name="space"/><!-- ???? -->
+      <map code="0x1f45f" name="space"/><!-- ???? -->
+      <map code="0x1f460" name="space"/><!-- ???? -->
+      <map code="0x1f461" name="space"/><!-- ???? -->
+      <map code="0x1f462" name="space"/><!-- ???? -->
+      <map code="0x1f463" name="space"/><!-- ???? -->
+      <map code="0x1f464" name="space"/><!-- ???? -->
+      <map code="0x1f465" name="space"/><!-- ???? -->
+      <map code="0x1f466" name="space"/><!-- ???? -->
+      <map code="0x1f467" name="space"/><!-- ???? -->
+      <map code="0x1f468" name="space"/><!-- ???? -->
+      <map code="0x1f469" name="space"/><!-- ???? -->
+      <map code="0x1f46a" name="space"/><!-- ???? -->
+      <map code="0x1f46b" name="space"/><!-- ???? -->
+      <map code="0x1f46c" name="space"/><!-- ???? -->
+      <map code="0x1f46d" name="space"/><!-- ???? -->
+      <map code="0x1f46e" name="space"/><!-- ???? -->
+      <map code="0x1f46f" name="space"/><!-- ???? -->
+      <map code="0x1f470" name="space"/><!-- ???? -->
+      <map code="0x1f471" name="space"/><!-- ???? -->
+      <map code="0x1f472" name="space"/><!-- ???? -->
+      <map code="0x1f473" name="space"/><!-- ???? -->
+      <map code="0x1f474" name="space"/><!-- ???? -->
+      <map code="0x1f475" name="space"/><!-- ???? -->
+      <map code="0x1f476" name="space"/><!-- ???? -->
+      <map code="0x1f477" name="space"/><!-- ???? -->
+      <map code="0x1f478" name="space"/><!-- ???? -->
+      <map code="0x1f479" name="space"/><!-- ???? -->
+      <map code="0x1f47a" name="space"/><!-- ???? -->
+      <map code="0x1f47b" name="space"/><!-- ???? -->
+      <map code="0x1f47c" name="space"/><!-- ???? -->
+      <map code="0x1f47d" name="space"/><!-- ???? -->
+      <map code="0x1f47e" name="space"/><!-- ???? -->
+      <map code="0x1f47f" name="space"/><!-- ???? -->
+      <map code="0x1f480" name="space"/><!-- ???? -->
+      <map code="0x1f481" name="space"/><!-- ???? -->
+      <map code="0x1f482" name="space"/><!-- ???? -->
+      <map code="0x1f483" name="space"/><!-- ???? -->
+      <map code="0x1f484" name="space"/><!-- ???? -->
+      <map code="0x1f485" name="space"/><!-- ???? -->
+      <map code="0x1f486" name="space"/><!-- ???? -->
+      <map code="0x1f487" name="space"/><!-- ???? -->
+      <map code="0x1f488" name="space"/><!-- ???? -->
+      <map code="0x1f489" name="space"/><!-- ???? -->
+      <map code="0x1f48a" name="space"/><!-- ???? -->
+      <map code="0x1f48b" name="space"/><!-- ???? -->
+      <map code="0x1f48c" name="space"/><!-- ???? -->
+      <map code="0x1f48d" name="space"/><!-- ???? -->
+      <map code="0x1f48e" name="space"/><!-- ???? -->
+      <map code="0x1f48f" name="space"/><!-- ???? -->
+      <map code="0x1f490" name="space"/><!-- ???? -->
+      <map code="0x1f491" name="space"/><!-- ???? -->
+      <map code="0x1f492" name="space"/><!-- ???? -->
+      <map code="0x1f493" name="space"/><!-- ???? -->
+      <map code="0x1f494" name="space"/><!-- ???? -->
+      <map code="0x1f495" name="space"/><!-- ???? -->
+      <map code="0x1f496" name="space"/><!-- ???? -->
+      <map code="0x1f497" name="space"/><!-- ???? -->
+      <map code="0x1f498" name="space"/><!-- ???? -->
+      <map code="0x1f499" name="space"/><!-- ???? -->
+      <map code="0x1f49a" name="space"/><!-- ???? -->
+      <map code="0x1f49b" name="space"/><!-- ???? -->
+      <map code="0x1f49c" name="space"/><!-- ???? -->
+      <map code="0x1f49d" name="space"/><!-- ???? -->
+      <map code="0x1f49e" name="space"/><!-- ???? -->
+      <map code="0x1f49f" name="space"/><!-- ???? -->
+      <map code="0x1f4a0" name="space"/><!-- ???? -->
+      <map code="0x1f4a1" name="space"/><!-- ???? -->
+      <map code="0x1f4a2" name="space"/><!-- ???? -->
+      <map code="0x1f4a3" name="space"/><!-- ???? -->
+      <map code="0x1f4a4" name="space"/><!-- ???? -->
+      <map code="0x1f4a5" name="space"/><!-- ???? -->
+      <map code="0x1f4a6" name="space"/><!-- ???? -->
+      <map code="0x1f4a7" name="space"/><!-- ???? -->
+      <map code="0x1f4a8" name="space"/><!-- ???? -->
+      <map code="0x1f4a9" name="space"/><!-- ???? -->
+      <map code="0x1f4aa" name="space"/><!-- ???? -->
+      <map code="0x1f4ab" name="space"/><!-- ???? -->
+      <map code="0x1f4ac" name="space"/><!-- ???? -->
+      <map code="0x1f4ad" name="space"/><!-- ???? -->
+      <map code="0x1f4ae" name="space"/><!-- ???? -->
+      <map code="0x1f4af" name="space"/><!-- ???? -->
+      <map code="0x1f4b0" name="space"/><!-- ???? -->
+      <map code="0x1f4b1" name="space"/><!-- ???? -->
+      <map code="0x1f4b2" name="space"/><!-- ???? -->
+      <map code="0x1f4b3" name="space"/><!-- ???? -->
+      <map code="0x1f4b4" name="space"/><!-- ???? -->
+      <map code="0x1f4b5" name="space"/><!-- ???? -->
+      <map code="0x1f4b6" name="space"/><!-- ???? -->
+      <map code="0x1f4b7" name="space"/><!-- ???? -->
+      <map code="0x1f4b8" name="space"/><!-- ???? -->
+      <map code="0x1f4b9" name="space"/><!-- ???? -->
+      <map code="0x1f4ba" name="space"/><!-- ???? -->
+      <map code="0x1f4bb" name="space"/><!-- ???? -->
+      <map code="0x1f4bc" name="space"/><!-- ???? -->
+      <map code="0x1f4bd" name="space"/><!-- ???? -->
+      <map code="0x1f4be" name="space"/><!-- ???? -->
+      <map code="0x1f4bf" name="space"/><!-- ???? -->
+      <map code="0x1f4c0" name="space"/><!-- ???? -->
+      <map code="0x1f4c1" name="space"/><!-- ???? -->
+      <map code="0x1f4c2" name="space"/><!-- ???? -->
+      <map code="0x1f4c3" name="space"/><!-- ???? -->
+      <map code="0x1f4c4" name="space"/><!-- ???? -->
+      <map code="0x1f4c5" name="space"/><!-- ???? -->
+      <map code="0x1f4c6" name="space"/><!-- ???? -->
+      <map code="0x1f4c7" name="space"/><!-- ???? -->
+      <map code="0x1f4c8" name="space"/><!-- ???? -->
+      <map code="0x1f4c9" name="space"/><!-- ???? -->
+      <map code="0x1f4ca" name="space"/><!-- ???? -->
+      <map code="0x1f4cb" name="space"/><!-- ???? -->
+      <map code="0x1f4cc" name="space"/><!-- ???? -->
+      <map code="0x1f4cd" name="space"/><!-- ???? -->
+      <map code="0x1f4ce" name="space"/><!-- ???? -->
+      <map code="0x1f4cf" name="space"/><!-- ???? -->
+      <map code="0x1f4d0" name="space"/><!-- ???? -->
+      <map code="0x1f4d1" name="space"/><!-- ???? -->
+      <map code="0x1f4d2" name="space"/><!-- ???? -->
+      <map code="0x1f4d3" name="space"/><!-- ???? -->
+      <map code="0x1f4d4" name="space"/><!-- ???? -->
+      <map code="0x1f4d5" name="space"/><!-- ???? -->
+      <map code="0x1f4d6" name="space"/><!-- ???? -->
+      <map code="0x1f4d7" name="space"/><!-- ???? -->
+      <map code="0x1f4d8" name="space"/><!-- ???? -->
+      <map code="0x1f4d9" name="space"/><!-- ???? -->
+      <map code="0x1f4da" name="space"/><!-- ???? -->
+      <map code="0x1f4db" name="space"/><!-- ???? -->
+      <map code="0x1f4dc" name="space"/><!-- ???? -->
+      <map code="0x1f4dd" name="space"/><!-- ???? -->
+      <map code="0x1f4de" name="space"/><!-- ???? -->
+      <map code="0x1f4df" name="space"/><!-- ???? -->
+      <map code="0x1f4e0" name="space"/><!-- ???? -->
+      <map code="0x1f4e1" name="space"/><!-- ???? -->
+      <map code="0x1f4e2" name="space"/><!-- ???? -->
+      <map code="0x1f4e3" name="space"/><!-- ???? -->
+      <map code="0x1f4e4" name="space"/><!-- ???? -->
+      <map code="0x1f4e5" name="space"/><!-- ???? -->
+      <map code="0x1f4e6" name="space"/><!-- ???? -->
+      <map code="0x1f4e7" name="space"/><!-- ???? -->
+      <map code="0x1f4e8" name="space"/><!-- ???? -->
+      <map code="0x1f4e9" name="space"/><!-- ???? -->
+      <map code="0x1f4ea" name="space"/><!-- ???? -->
+      <map code="0x1f4eb" name="space"/><!-- ???? -->
+      <map code="0x1f4ec" name="space"/><!-- ???? -->
+      <map code="0x1f4ed" name="space"/><!-- ???? -->
+      <map code="0x1f4ee" name="space"/><!-- ???? -->
+      <map code="0x1f4ef" name="space"/><!-- ???? -->
+      <map code="0x1f4f0" name="space"/><!-- ???? -->
+      <map code="0x1f4f1" name="space"/><!-- ???? -->
+      <map code="0x1f4f2" name="space"/><!-- ???? -->
+      <map code="0x1f4f3" name="space"/><!-- ???? -->
+      <map code="0x1f4f4" name="space"/><!-- ???? -->
+      <map code="0x1f4f5" name="space"/><!-- ???? -->
+      <map code="0x1f4f6" name="space"/><!-- ???? -->
+      <map code="0x1f4f7" name="space"/><!-- ???? -->
+      <map code="0x1f4f9" name="space"/><!-- ???? -->
+      <map code="0x1f4fa" name="space"/><!-- ???? -->
+      <map code="0x1f4fb" name="space"/><!-- ???? -->
+      <map code="0x1f4fc" name="space"/><!-- ???? -->
+      <map code="0x1f500" name="space"/><!-- ???? -->
+      <map code="0x1f501" name="space"/><!-- ???? -->
+      <map code="0x1f502" name="space"/><!-- ???? -->
+      <map code="0x1f503" name="space"/><!-- ???? -->
+      <map code="0x1f504" name="space"/><!-- ???? -->
+      <map code="0x1f505" name="space"/><!-- ???? -->
+      <map code="0x1f506" name="space"/><!-- ???? -->
+      <map code="0x1f507" name="space"/><!-- ???? -->
+      <map code="0x1f508" name="space"/><!-- ???? -->
+      <map code="0x1f509" name="space"/><!-- ???? -->
+      <map code="0x1f50a" name="space"/><!-- ???? -->
+      <map code="0x1f50b" name="space"/><!-- ???? -->
+      <map code="0x1f50c" name="space"/><!-- ???? -->
+      <map code="0x1f50d" name="space"/><!-- ???? -->
+      <map code="0x1f50e" name="space"/><!-- ???? -->
+      <map code="0x1f50f" name="space"/><!-- ???? -->
+      <map code="0x1f510" name="space"/><!-- ???? -->
+      <map code="0x1f511" name="space"/><!-- ???? -->
+      <map code="0x1f512" name="space"/><!-- ???? -->
+      <map code="0x1f513" name="space"/><!-- ???? -->
+      <map code="0x1f514" name="space"/><!-- ???? -->
+      <map code="0x1f515" name="space"/><!-- ???? -->
+      <map code="0x1f516" name="space"/><!-- ???? -->
+      <map code="0x1f517" name="space"/><!-- ???? -->
+      <map code="0x1f518" name="space"/><!-- ???? -->
+      <map code="0x1f519" name="space"/><!-- ???? -->
+      <map code="0x1f51a" name="space"/><!-- ???? -->
+      <map code="0x1f51b" name="space"/><!-- ???? -->
+      <map code="0x1f51c" name="space"/><!-- ???? -->
+      <map code="0x1f51d" name="space"/><!-- ???? -->
+      <map code="0x1f51e" name="space"/><!-- ???? -->
+      <map code="0x1f51f" name="space"/><!-- ???? -->
+      <map code="0x1f520" name="space"/><!-- ???? -->
+      <map code="0x1f521" name="space"/><!-- ???? -->
+      <map code="0x1f522" name="space"/><!-- ???? -->
+      <map code="0x1f523" name="space"/><!-- ???? -->
+      <map code="0x1f524" name="space"/><!-- ???? -->
+      <map code="0x1f525" name="space"/><!-- ???? -->
+      <map code="0x1f526" name="space"/><!-- ???? -->
+      <map code="0x1f527" name="space"/><!-- ???? -->
+      <map code="0x1f528" name="space"/><!-- ???? -->
+      <map code="0x1f529" name="space"/><!-- ???? -->
+      <map code="0x1f52a" name="space"/><!-- ???? -->
+      <map code="0x1f52b" name="space"/><!-- ???? -->
+      <map code="0x1f52c" name="space"/><!-- ???? -->
+      <map code="0x1f52d" name="space"/><!-- ???? -->
+      <map code="0x1f52e" name="space"/><!-- ???? -->
+      <map code="0x1f52f" name="space"/><!-- ???? -->
+      <map code="0x1f530" name="space"/><!-- ???? -->
+      <map code="0x1f531" name="space"/><!-- ???? -->
+      <map code="0x1f532" name="space"/><!-- ???? -->
+      <map code="0x1f533" name="space"/><!-- ???? -->
+      <map code="0x1f534" name="space"/><!-- ???? -->
+      <map code="0x1f535" name="space"/><!-- ???? -->
+      <map code="0x1f536" name="space"/><!-- ???? -->
+      <map code="0x1f537" name="space"/><!-- ???? -->
+      <map code="0x1f538" name="space"/><!-- ???? -->
+      <map code="0x1f539" name="space"/><!-- ???? -->
+      <map code="0x1f53a" name="space"/><!-- ???? -->
+      <map code="0x1f53b" name="space"/><!-- ???? -->
+      <map code="0x1f53c" name="space"/><!-- ???? -->
+      <map code="0x1f53d" name="space"/><!-- ???? -->
+      <map code="0x1f550" name="space"/><!-- ???? -->
+      <map code="0x1f551" name="space"/><!-- ???? -->
+      <map code="0x1f552" name="space"/><!-- ???? -->
+      <map code="0x1f553" name="space"/><!-- ???? -->
+      <map code="0x1f554" name="space"/><!-- ???? -->
+      <map code="0x1f555" name="space"/><!-- ???? -->
+      <map code="0x1f556" name="space"/><!-- ???? -->
+      <map code="0x1f557" name="space"/><!-- ???? -->
+      <map code="0x1f558" name="space"/><!-- ???? -->
+      <map code="0x1f559" name="space"/><!-- ???? -->
+      <map code="0x1f55a" name="space"/><!-- ???? -->
+      <map code="0x1f55b" name="space"/><!-- ???? -->
+      <map code="0x1f55c" name="space"/><!-- ???? -->
+      <map code="0x1f55d" name="space"/><!-- ???? -->
+      <map code="0x1f55e" name="space"/><!-- ???? -->
+      <map code="0x1f55f" name="space"/><!-- ???? -->
+      <map code="0x1f560" name="space"/><!-- ???? -->
+      <map code="0x1f561" name="space"/><!-- ???? -->
+      <map code="0x1f562" name="space"/><!-- ???? -->
+      <map code="0x1f563" name="space"/><!-- ???? -->
+      <map code="0x1f564" name="space"/><!-- ???? -->
+      <map code="0x1f565" name="space"/><!-- ???? -->
+      <map code="0x1f566" name="space"/><!-- ???? -->
+      <map code="0x1f567" name="space"/><!-- ???? -->
+      <map code="0x1f5fb" name="space"/><!-- ???? -->
+      <map code="0x1f5fc" name="space"/><!-- ???? -->
+      <map code="0x1f5fd" name="space"/><!-- ???? -->
+      <map code="0x1f5fe" name="space"/><!-- ???? -->
+      <map code="0x1f5ff" name="space"/><!-- ???? -->
+      <map code="0x1f600" name="space"/><!-- ???? -->
+      <map code="0x1f601" name="space"/><!-- ???? -->
+      <map code="0x1f602" name="space"/><!-- ???? -->
+      <map code="0x1f603" name="space"/><!-- ???? -->
+      <map code="0x1f604" name="space"/><!-- ???? -->
+      <map code="0x1f605" name="space"/><!-- ???? -->
+      <map code="0x1f606" name="space"/><!-- ???? -->
+      <map code="0x1f607" name="space"/><!-- ???? -->
+      <map code="0x1f608" name="space"/><!-- ???? -->
+      <map code="0x1f609" name="space"/><!-- ???? -->
+      <map code="0x1f60a" name="space"/><!-- ???? -->
+      <map code="0x1f60b" name="space"/><!-- ???? -->
+      <map code="0x1f60c" name="space"/><!-- ???? -->
+      <map code="0x1f60d" name="space"/><!-- ???? -->
+      <map code="0x1f60e" name="space"/><!-- ???? -->
+      <map code="0x1f60f" name="space"/><!-- ???? -->
+      <map code="0x1f610" name="space"/><!-- ???? -->
+      <map code="0x1f611" name="space"/><!-- ???? -->
+      <map code="0x1f612" name="space"/><!-- ???? -->
+      <map code="0x1f613" name="space"/><!-- ???? -->
+      <map code="0x1f614" name="space"/><!-- ???? -->
+      <map code="0x1f615" name="space"/><!-- ???? -->
+      <map code="0x1f616" name="space"/><!-- ???? -->
+      <map code="0x1f617" name="space"/><!-- ???? -->
+      <map code="0x1f618" name="space"/><!-- ???? -->
+      <map code="0x1f619" name="space"/><!-- ???? -->
+      <map code="0x1f61a" name="space"/><!-- ???? -->
+      <map code="0x1f61b" name="space"/><!-- ???? -->
+      <map code="0x1f61c" name="space"/><!-- ???? -->
+      <map code="0x1f61d" name="space"/><!-- ???? -->
+      <map code="0x1f61e" name="space"/><!-- ???? -->
+      <map code="0x1f61f" name="space"/><!-- ???? -->
+      <map code="0x1f620" name="space"/><!-- ???? -->
+      <map code="0x1f621" name="space"/><!-- ???? -->
+      <map code="0x1f622" name="space"/><!-- ???? -->
+      <map code="0x1f623" name="space"/><!-- ???? -->
+      <map code="0x1f624" name="space"/><!-- ???? -->
+      <map code="0x1f625" name="space"/><!-- ???? -->
+      <map code="0x1f626" name="space"/><!-- ???? -->
+      <map code="0x1f627" name="space"/><!-- ???? -->
+      <map code="0x1f628" name="space"/><!-- ???? -->
+      <map code="0x1f629" name="space"/><!-- ???? -->
+      <map code="0x1f62a" name="space"/><!-- ???? -->
+      <map code="0x1f62b" name="space"/><!-- ???? -->
+      <map code="0x1f62c" name="space"/><!-- ???? -->
+      <map code="0x1f62d" name="space"/><!-- ???? -->
+      <map code="0x1f62e" name="space"/><!-- ???? -->
+      <map code="0x1f62f" name="space"/><!-- ???? -->
+      <map code="0x1f630" name="space"/><!-- ???? -->
+      <map code="0x1f631" name="space"/><!-- ???? -->
+      <map code="0x1f632" name="space"/><!-- ???? -->
+      <map code="0x1f633" name="space"/><!-- ???? -->
+      <map code="0x1f634" name="space"/><!-- ???? -->
+      <map code="0x1f635" name="space"/><!-- ???? -->
+      <map code="0x1f636" name="space"/><!-- ???? -->
+      <map code="0x1f637" name="space"/><!-- ???? -->
+      <map code="0x1f638" name="space"/><!-- ???? -->
+      <map code="0x1f639" name="space"/><!-- ???? -->
+      <map code="0x1f63a" name="space"/><!-- ???? -->
+      <map code="0x1f63b" name="space"/><!-- ???? -->
+      <map code="0x1f63c" name="space"/><!-- ???? -->
+      <map code="0x1f63d" name="space"/><!-- ???? -->
+      <map code="0x1f63e" name="space"/><!-- ???? -->
+      <map code="0x1f63f" name="space"/><!-- ???? -->
+      <map code="0x1f640" name="space"/><!-- ???? -->
+      <map code="0x1f645" name="space"/><!-- ???? -->
+      <map code="0x1f646" name="space"/><!-- ???? -->
+      <map code="0x1f647" name="space"/><!-- ???? -->
+      <map code="0x1f648" name="space"/><!-- ???? -->
+      <map code="0x1f649" name="space"/><!-- ???? -->
+      <map code="0x1f64a" name="space"/><!-- ???? -->
+      <map code="0x1f64b" name="space"/><!-- ???? -->
+      <map code="0x1f64c" name="space"/><!-- ???? -->
+      <map code="0x1f64d" name="space"/><!-- ???? -->
+      <map code="0x1f64e" name="space"/><!-- ???? -->
+      <map code="0x1f64f" name="space"/><!-- ???? -->
+      <map code="0x1f680" name="space"/><!-- ???? -->
+      <map code="0x1f681" name="space"/><!-- ???? -->
+      <map code="0x1f682" name="space"/><!-- ???? -->
+      <map code="0x1f683" name="space"/><!-- ???? -->
+      <map code="0x1f684" name="space"/><!-- ???? -->
+      <map code="0x1f685" name="space"/><!-- ???? -->
+      <map code="0x1f686" name="space"/><!-- ???? -->
+      <map code="0x1f687" name="space"/><!-- ???? -->
+      <map code="0x1f688" name="space"/><!-- ???? -->
+      <map code="0x1f689" name="space"/><!-- ???? -->
+      <map code="0x1f68a" name="space"/><!-- ???? -->
+      <map code="0x1f68b" name="space"/><!-- ???? -->
+      <map code="0x1f68c" name="space"/><!-- ???? -->
+      <map code="0x1f68d" name="space"/><!-- ???? -->
+      <map code="0x1f68e" name="space"/><!-- ???? -->
+      <map code="0x1f68f" name="space"/><!-- ???? -->
+      <map code="0x1f690" name="space"/><!-- ???? -->
+      <map code="0x1f691" name="space"/><!-- ???? -->
+      <map code="0x1f692" name="space"/><!-- ???? -->
+      <map code="0x1f693" name="space"/><!-- ???? -->
+      <map code="0x1f694" name="space"/><!-- ???? -->
+      <map code="0x1f695" name="space"/><!-- ???? -->
+      <map code="0x1f696" name="space"/><!-- ???? -->
+      <map code="0x1f697" name="space"/><!-- ???? -->
+      <map code="0x1f698" name="space"/><!-- ???? -->
+      <map code="0x1f699" name="space"/><!-- ???? -->
+      <map code="0x1f69a" name="space"/><!-- ???? -->
+      <map code="0x1f69b" name="space"/><!-- ???? -->
+      <map code="0x1f69c" name="space"/><!-- ???? -->
+      <map code="0x1f69d" name="space"/><!-- ???? -->
+      <map code="0x1f69e" name="space"/><!-- ???? -->
+      <map code="0x1f69f" name="space"/><!-- ???? -->
+      <map code="0x1f6a0" name="space"/><!-- ???? -->
+      <map code="0x1f6a1" name="space"/><!-- ???? -->
+      <map code="0x1f6a2" name="space"/><!-- ???? -->
+      <map code="0x1f6a3" name="space"/><!-- ???? -->
+      <map code="0x1f6a4" name="space"/><!-- ???? -->
+      <map code="0x1f6a5" name="space"/><!-- ???? -->
+      <map code="0x1f6a6" name="space"/><!-- ???? -->
+      <map code="0x1f6a7" name="space"/><!-- ???? -->
+      <map code="0x1f6a8" name="space"/><!-- ???? -->
+      <map code="0x1f6a9" name="space"/><!-- ???? -->
+      <map code="0x1f6aa" name="space"/><!-- ???? -->
+      <map code="0x1f6ab" name="space"/><!-- ???? -->
+      <map code="0x1f6ac" name="space"/><!-- ???? -->
+      <map code="0x1f6ad" name="space"/><!-- ???? -->
+      <map code="0x1f6ae" name="space"/><!-- ???? -->
+      <map code="0x1f6af" name="space"/><!-- ???? -->
+      <map code="0x1f6b0" name="space"/><!-- ???? -->
+      <map code="0x1f6b1" name="space"/><!-- ???? -->
+      <map code="0x1f6b2" name="space"/><!-- ???? -->
+      <map code="0x1f6b3" name="space"/><!-- ???? -->
+      <map code="0x1f6b4" name="space"/><!-- ???? -->
+      <map code="0x1f6b5" name="space"/><!-- ???? -->
+      <map code="0x1f6b6" name="space"/><!-- ???? -->
+      <map code="0x1f6b7" name="space"/><!-- ???? -->
+      <map code="0x1f6b8" name="space"/><!-- ???? -->
+      <map code="0x1f6b9" name="space"/><!-- ???? -->
+      <map code="0x1f6ba" name="space"/><!-- ???? -->
+      <map code="0x1f6bb" name="space"/><!-- ???? -->
+      <map code="0x1f6bc" name="space"/><!-- ???? -->
+      <map code="0x1f6bd" name="space"/><!-- ???? -->
+      <map code="0x1f6be" name="space"/><!-- ???? -->
+      <map code="0x1f6bf" name="space"/><!-- ???? -->
+      <map code="0x1f6c0" name="space"/><!-- ???? -->
+      <map code="0x1f6c1" name="space"/><!-- ???? -->
+      <map code="0x1f6c2" name="space"/><!-- ???? -->
+      <map code="0x1f6c3" name="space"/><!-- ???? -->
+      <map code="0x1f6c4" name="space"/><!-- ???? -->
+      <map code="0x1f6c5" name="space"/><!-- ???? -->
+    </cmap_format_12>
+  </cmap>
+
+  <post>
+    <formatType value="3.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="-75"/>
+    <underlineThickness value="50"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+  </post>
+
+  <CFF>
+    <CFFFont name="emoji-Regular">
+      <version value="001.001"/>
+      <Notice value=""/>
+      <FullName value="emoji-Regular"/>
+      <FamilyName value="emoji"/>
+      <Weight value="Regular"/>
+      <isFixedPitch value="0"/>
+      <ItalicAngle value="0"/>
+      <UnderlineThickness value="50"/>
+      <PaintType value="0"/>
+      <CharstringType value="2"/>
+      <FontMatrix value="0.001 0 0 0.001 0 0"/>
+      <!-- <FontBBox value="-2147483648 -2147483648 0 0"/> -->
+      <StrokeWidth value="0"/>
+      <!-- charset is dumped separately as the 'GlyphOrder' element -->
+      <Encoding name="StandardEncoding"/>
+      <Private>
+        <BlueScale value="0.037"/>
+        <BlueShift value="7"/>
+        <BlueFuzz value="0"/>
+        <ForceBold value="0"/>
+        <LanguageGroup value="0"/>
+        <ExpansionFactor value="0.06"/>
+        <initialRandomSeed value="0"/>
+        <defaultWidthX value="1000"/>
+        <nominalWidthX value="0"/>
+      </Private>
+      <CharStrings>
+        <CharString name=".notdef">
+          1000 endchar
+        </CharString>
+        <CharString name="space">
+          1000 endchar
+        </CharString>
+        <CharString name="uni1f1fA">
+          500 endchar
+        </CharString>
+        <CharString name="uni20e3">
+          0 endchar
+        </CharString>
+      </CharStrings>
+    </CFFFont>
+
+    <GlobalSubrs>
+      <!-- The 'index' attribute is only for humans; it is ignored when parsed. -->
+    </GlobalSubrs>
+  </CFF>
+
+  <GSUB>
+    <Version value="1.0"/>
+  </GSUB>
+
+  <hmtx>
+    <mtx name=".notdef" width="1000" lsb="0"/>
+    <mtx name="space" width="1000" lsb="0"/>
+    <mtx name="uni1f1fA" width="500" lsb="0"/>
+    <mtx name="uni20e3" width="0" lsb="0"/>
+  </hmtx>
+
+</ttFont>
