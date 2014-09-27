@@ -6,18 +6,22 @@ web (a feature that users increasingly demand) we need a workaround.  There are 
 there that support cross browser emoji by replacing emoji characters with images.  However, I hadn't seen any that 
 tried to make them work inside contenteditable.
 
-ContentEditable is used by many sites around the web to implement rich text editors for things like blogs.  Everyone
+ContentEditable is used by many sites around the web to implement rich text editors.  Everyone
 who has used it knows it's [terrible](https://medium.com/medium-eng/why-contenteditable-is-terrible-122d8a40e480), but
 we use it anyway since there are no alternatives.  To find out just how terrible it is, let's try to get emoji working!
+
+## Try #1: Image tags
 
 The first thing I tried, was to just use one of the many JS libraries out there to convert emoji to image tags inside 
 contenteditable and be done with it.  This has some major problems:
 
 1. Image elements get these ugly resize handles in IE and Firefox when you click on them, and there's no way to remove them.
 2. Image elements don't work like inline elements with text selections, cursor movement, etc.
-3. You can drag and drop images.
+3. You can drag and drop images around, unlike text.
 4. Copy and paste doesn't work right.
 5. etc.
+
+## Try #2: Inline spans
 
 The next approach to try was to use `<span>` elements with background images.  This works better since the elements are inline,
 but there are problems with this approach too (which we'll fix).  We have to put the actual emoji character inside the span element
@@ -29,9 +33,11 @@ not effect the cursor, but other browsers don't have such a property.  So, we're
 
 Another problem with this approach is that the widths can be wrong for some characters.  Some emoji are actually two or more characters
 that are combined by the font engine into a ligature.  Examples include the flag glyphs (e.g. :us:), and the keycap glyphs (e.g. :one:).
-Since the span elements are inline, we can't control their widths.  We could try to set the span element to `display: inline-block`, 
+Since the span elements are inline, we can't override their intrinsic widths.  We could try to set the span element to `display: inline-block`, 
 but this causes the same problems as with images.  In IE at least, the resize handles show up and text selections don't work right
 for all block elements inside contenteditable, not just images.
+
+## Solution: Inline spans with custom font
 
 The solution that I came to that solves both of these problems was to create a custom web font that contains empty (invisible) glyphs
 of the correct widths.  This way, the spans can be inline elements and we don't have the problem of the glyphs being drawn above the

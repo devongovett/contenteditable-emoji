@@ -33,11 +33,11 @@
   function renderEmoji() {
     editable.html(editable.html().replace(emojiRegex, function(m) {
       // strip unicode variation selectors
-      m = m.replace(/[\ufe00-\ufe0f]/g, '');
+      var p = m.replace(/[\ufe00-\ufe0f]/g, '');
 
       var name = [];
-      for (var i = 0; i < m.length; i++)
-        name.push(('0000' + m.charCodeAt(i).toString(16)).slice(-4));
+      for (var i = 0; i < p.length; i++)
+        name.push(('0000' + p.charCodeAt(i).toString(16)).slice(-4));
   
       var path = 'images/' + name.join('-') + '.png';
       
