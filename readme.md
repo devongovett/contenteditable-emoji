@@ -21,6 +21,10 @@ contenteditable and be done with it.  This has some major problems:
 4. Copy and paste doesn't work right.
 5. etc.
 
+Here's an image of #1:
+
+![](https://i.cloudup.com/bxzAnpXX_T.png)
+
 ## Try #2: Inline spans
 
 The next approach to try was to use `<span>` elements with background images.  This works better since the elements are inline,
@@ -36,6 +40,10 @@ that are combined by the font engine into a ligature.  Examples include the flag
 Since the span elements are inline, we can't override their intrinsic widths.  We could try to set the span element to `display: inline-block`, 
 but this causes the same problems as with images.  In IE at least, the resize handles show up and text selections don't work right
 for all block elements inside contenteditable, not just images.
+
+Here's an image showing both problems:
+
+![](https://i.cloudup.com/OuSMATLvVH.png)
 
 ## Solution: Inline spans with custom font
 
