@@ -5,18 +5,20 @@
   <title>ContentEditable Emoji</title>
   <style>
   @font-face {
-    font-family: 'Emoji';
-    src: url('emoji.woff');
+    font-family: Emoji;
+    src: url('emoji.woff2') format('woff2'),
+         url('emoji.woff') format('woff'),
+         url('emoji.ttf') format('truetype');
   }
-  
+
   .emoji {
-    font-family: 'Emoji', Georgia;
+    font-family: Emoji, Georgia;
     background-size: auto 1em;
     background-repeat: no-repeat;
     background-position: top center;
     vertical-align: top;
   }
-  
+
   div[contenteditable] {
     font-size: 40px;
     font-family: Georgia;
@@ -28,8 +30,8 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script>
   var editable = $('div[contenteditable]');
-  
-  var emojiRegex = /(?:\ud83c\ufe0f?\udde8\ufe0f?\ud83c\ufe0f?\uddf3|\ud83c\ufe0f?\udde9\ufe0f?\ud83c\ufe0f?\uddea|\ud83c\ufe0f?\uddea\ufe0f?\ud83c\ufe0f?\uddf8|\ud83c\ufe0f?\uddeb\ufe0f?\ud83c\ufe0f?\uddf7|\ud83c\ufe0f?\uddec\ufe0f?\ud83c\ufe0f?\udde7|\ud83c\ufe0f?\uddee\ufe0f?\ud83c\ufe0f?\uddf9|\ud83c\ufe0f?\uddef\ufe0f?\ud83c\ufe0f?\uddf5|\ud83c\ufe0f?\uddf0\ufe0f?\ud83c\ufe0f?\uddf7|\ud83c\ufe0f?\uddf7\ufe0f?\ud83c\ufe0f?\uddfa|\ud83c\ufe0f?\uddfa\ufe0f?\ud83c\ufe0f?\uddf8|\u0023\ufe0f?\u20e3|\u0030\ufe0f?\u20e3|\u0031\ufe0f?\u20e3|\u0032\ufe0f?\u20e3|\u0033\ufe0f?\u20e3|\u0034\ufe0f?\u20e3|\u0035\ufe0f?\u20e3|\u0036\ufe0f?\u20e3|\u0037\ufe0f?\u20e3|\u0038\ufe0f?\u20e3|\u0039\ufe0f?\u20e3|[\xA9\xAE\u203C\u2049\u2122\u2139\u2194-\u2199\u21A9\u21AA\u231A\u231B\u23E9-\u23EC\u23F0\u23F3\u24C2\u25AA\u25AB\u25B6\u25C0\u25FB-\u25FE\u2600\u2601\u260E\u2611\u2614\u2615\u261D\u263A\u2648-\u2653\u2660\u2663\u2665\u2666\u2668\u267B\u267F\u2693\u26A0\u26A1\u26AA\u26AB\u26BD\u26BE\u26C4\u26C5\u26CE\u26D4\u26EA\u26F2\u26F3\u26F5\u26FA\u26FD\u2702\u2705\u2708-\u270C\u270F\u2712\u2714\u2716\u2728\u2733\u2734\u2744\u2747\u274C\u274E\u2753-\u2755\u2757\u2764\u2795-\u2797\u27A1\u27B0\u27BF\u2934\u2935\u2B05-\u2B07\u2B1B\u2B1C\u2B50\u2B55\u3030\u303D\u3297\u3299\uE50A]|\uD83C[\uDC04\uDCCF\uDD70\uDD71\uDD7E\uDD7F\uDD8E\uDD91-\uDD9A\uDE01\uDE02\uDE1A\uDE2F\uDE32-\uDE3A\uDE50\uDE51\uDF00-\uDF20\uDF30-\uDF35\uDF37-\uDF7C\uDF80-\uDF93\uDFA0-\uDFC4\uDFC6-\uDFCA\uDFE0-\uDFF0]|\uD83D[\uDC00-\uDC3E\uDC40\uDC42-\uDCF7\uDCF9-\uDCFC\uDD00-\uDD3D\uDD50-\uDD67\uDDFB-\uDE40\uDE45-\uDE4F\uDE80-\uDEC5])[\ufe00-\ufe0f]?/g;  
+
+  var emojiRegex = /(?:\ud83c\ufe0f?\udde8\ufe0f?\ud83c\ufe0f?\uddf3|\ud83c\ufe0f?\udde9\ufe0f?\ud83c\ufe0f?\uddea|\ud83c\ufe0f?\uddea\ufe0f?\ud83c\ufe0f?\uddf8|\ud83c\ufe0f?\uddeb\ufe0f?\ud83c\ufe0f?\uddf7|\ud83c\ufe0f?\uddec\ufe0f?\ud83c\ufe0f?\udde7|\ud83c\ufe0f?\uddee\ufe0f?\ud83c\ufe0f?\uddf9|\ud83c\ufe0f?\uddef\ufe0f?\ud83c\ufe0f?\uddf5|\ud83c\ufe0f?\uddf0\ufe0f?\ud83c\ufe0f?\uddf7|\ud83c\ufe0f?\uddf7\ufe0f?\ud83c\ufe0f?\uddfa|\ud83c\ufe0f?\uddfa\ufe0f?\ud83c\ufe0f?\uddf8|\u0023\ufe0f?\u20e3|\u0030\ufe0f?\u20e3|\u0031\ufe0f?\u20e3|\u0032\ufe0f?\u20e3|\u0033\ufe0f?\u20e3|\u0034\ufe0f?\u20e3|\u0035\ufe0f?\u20e3|\u0036\ufe0f?\u20e3|\u0037\ufe0f?\u20e3|\u0038\ufe0f?\u20e3|\u0039\ufe0f?\u20e3|[\xA9\xAE\u203C\u2049\u2122\u2139\u2194-\u2199\u21A9\u21AA\u231A\u231B\u23E9-\u23EC\u23F0\u23F3\u24C2\u25AA\u25AB\u25B6\u25C0\u25FB-\u25FE\u2600\u2601\u260E\u2611\u2614\u2615\u261D\u263A\u2648-\u2653\u2660\u2663\u2665\u2666\u2668\u267B\u267F\u2693\u26A0\u26A1\u26AA\u26AB\u26BD\u26BE\u26C4\u26C5\u26CE\u26D4\u26EA\u26F2\u26F3\u26F5\u26FA\u26FD\u2702\u2705\u2708-\u270C\u270F\u2712\u2714\u2716\u2728\u2733\u2734\u2744\u2747\u274C\u274E\u2753-\u2755\u2757\u2764\u2795-\u2797\u27A1\u27B0\u27BF\u2934\u2935\u2B05-\u2B07\u2B1B\u2B1C\u2B50\u2B55\u3030\u303D\u3297\u3299\uE50A]|\uD83C[\uDC04\uDCCF\uDD70\uDD71\uDD7E\uDD7F\uDD8E\uDD91-\uDD9A\uDE01\uDE02\uDE1A\uDE2F\uDE32-\uDE3A\uDE50\uDE51\uDF00-\uDF20\uDF30-\uDF35\uDF37-\uDF7C\uDF80-\uDF93\uDFA0-\uDFC4\uDFC6-\uDFCA\uDFE0-\uDFF0]|\uD83D[\uDC00-\uDC3E\uDC40\uDC42-\uDCF7\uDCF9-\uDCFC\uDD00-\uDD3D\uDD50-\uDD67\uDDFB-\uDE40\uDE45-\uDE4F\uDE80-\uDEC5])[\ufe00-\ufe0f]?/g;
   function renderEmoji() {
     editable.html(editable.html().replace(emojiRegex, function(m) {
       // strip unicode variation selectors
@@ -38,9 +40,9 @@
       var name = [];
       for (var i = 0; i < p.length; i++)
         name.push(('0000' + p.charCodeAt(i).toString(16)).slice(-4));
-  
+
       var path = 'images/' + name.join('-') + '.png';
-      
+
       return '<span class="emoji" style="background-image: url(' + path + ')">' + m + '</span>';
     }));
   }
@@ -48,17 +50,17 @@
   // don't do this. it replaces the entire HTML every keystroke, but it works for demo purposes
   editable.on('input keyup', function(e) {
     var sel = saveSelection(editable[0]);
-  
+
     editable.find('.emoji').each(function() {
       $(this).replaceWith($(this).contents());
     });
-  
+
     renderEmoji();
     restoreSelection(editable[0], sel);
   });
 
   renderEmoji();
-  
+
   // from http://jsfiddle.net/Y8pJ7/8/
   function saveSelection(containerEl) {
       var charIndex = 0, start = 0, end = 0, foundStart = false, stop = {};
